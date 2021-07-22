@@ -1,1 +1,25 @@
 /*responsive code disini*/
+/* Untuk Tablet */
+
+
+/*Section 3*/
+@media all and (max-width: 1000px) {
+  .img-list {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+
+
+
+
+/* Untuk Smartphone */
+
+/*Section 3*/
+@media all and (max-width: 670px) {
+  .img-list {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
