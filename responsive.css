@@ -51,10 +51,35 @@
     width: 50%;
     margin-bottom: 50px;
   }
+    
+ 
 }
 
+/* Section 4 */
 
+@media(max-width: 1000px){
+    .register-left{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .register-right{
+        
+        text-align: center;
+        width: 100%;
+        height: auto;
+        display: block;
+        
+    }
 
+    .register-left img{
+       text-align: center;
+       width: 60%;
+       height: auto;
+       padding: 0;
+    }
+}
 
 
 /* Untuk Smartphone */
