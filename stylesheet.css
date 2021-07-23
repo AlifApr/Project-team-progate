@@ -401,6 +401,96 @@ body {
   padding-right: 40px;
 }
 
+/* Section 4 Register*/
+
+.register-title {
+  text-align: center;
+  position: relative;
+  margin: 50px 0px;
+  font-size: 18px;
+}
+
+.custom-shape-divider-top-1626926014 {
+  margin-top: 130px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background-color: #41d6c3;
+  height: auto;
+}
+
+.custom-shape-divider-top-1626926014 svg {
+  position: relative;
+  display: block;
+  width: calc(135% + 1.3px);
+  height: 161px;
+}
+
+.custom-shape-divider-top-1626926014 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.register-left {
+  width: 50%;
+  padding-left: 100px;
+  height: auto;
+  
+}
+
+.register-left img{
+  width: 500px;
+  float: left;
+  
+}
+
+.register-right{
+  float: right; 
+  width: 35%;
+  height: 300px;
+  display: inline-block;
+}
+
+.register-right h3{
+  margin: 20px 0px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.name, .phone, .email{
+  width: 250px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+.register-right p{
+  font-weight: normal;
+  font-size: 14px;
+  margin: 20px 0px;
+} 
+
+.input-btn{
+  width: 150px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  background-color:black;
+  font-weight: bold;
+  color: #41d6c3;
+  transition: all 0.5s;
+}
+
+.input-btn:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+
+}
+
 .footer {
   background-color: #41d6c3;
 }
