@@ -412,14 +412,13 @@ body {
 
 .custom-shape-divider-top-1626926014 {
   margin-top: 130px;
-  position: absolute;
-  top: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
   background-color: #41d6c3;
   height: auto;
+  padding-bottom: 50px;
 }
 
 .custom-shape-divider-top-1626926014 svg {
