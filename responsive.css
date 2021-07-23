@@ -1,6 +1,49 @@
 /*responsive code disini*/
 /* Untuk Tablet */
 
+/*section 1*/
+@media (max-width: 1000px){
+    .top-cover{
+        height: 870px;
+    }
+    .cover-copy{
+        font-size: 20px;
+        line-height: 60px;
+        letter-spacing: 1px;
+        text-align: center;
+        margin: auto;
+        padding-top: 200px;
+        width: 100%; 
+    }
+    .cover-copy p{
+        font-size: 12px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .book-btn-container{
+        margin: 200px 40px 0px 40px;
+    }
+    .book-btn{
+        width: 100%;
+        font-size: 14px;
+        line-height: 30px;       
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .search-bar{
+        height: 220px;
+        position: absolute;
+        left: 0px;
+        top: 870px;
+        border-radius: 0px 0px 30px 30px;
+        width: 100%;        
+    }
+    .search{
+        text-align: left;
+    }
+}
 
 /*Section 3*/
 @media all and (max-width: 1000px) {
@@ -15,6 +58,59 @@
 
 
 /* Untuk Smartphone */
+/*section 1*/
+@media (max-width: 670px){
+    .top-cover{
+        height: 870px;
+        margin: auto;
+    }
+    .cover-copy{
+        font-size: 20px;
+        line-height: 60px;
+        letter-spacing: 1px;
+        text-align: center;
+        margin: auto;
+        padding-top: 200px;
+        width: 100%; 
+    }
+    .cover-copy p{
+        font-size: 12px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .book-btn-container{
+        margin: 200px 40px 0px 40px;
+    }
+    .book-btn{
+        width: 100%;
+        font-size: 14px;
+        line-height: 30px;       
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .search-bar{
+        height: 220px;
+        position: absolute;
+        left: 0px;
+        top: 870px;
+        border-radius: 0px 0px 30px 30px;
+        width: 100%;        
+    }
+    .search-option{
+        width: 100%;
+    }
+    .search{
+        text-align: left;
+    }
+    .search-btn{
+    float: initial;
+    color: whitesmoke;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 15px 35px;
+    }
+}
 
 /*Section 3*/
 @media all and (max-width: 670px) {
