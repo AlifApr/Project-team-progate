@@ -44,6 +44,13 @@
     .search{
         text-align: left;
     }
+    .search-btn{
+        float: initial;
+        color: whitesmoke;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 15px 35px;
+    }
 }
 
 /*Section 3*/
